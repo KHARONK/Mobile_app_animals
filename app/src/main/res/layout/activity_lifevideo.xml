@@ -6,24 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".Lifevideo">
 
-    <LinearLayout
-        android:id = "@+id/wrapper"
+    <VideoView
+        android:id="@+id/Lifevideo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent = "true"
-        android:orientation = "vertical"/>
+        android:layout_marginBottom="300dp" />
 
     <SeekBar
         android:id="@+id/seekbar"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="53dp"
-        android:layout_marginTop="300dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="The seven continents" />
+        android:layout_marginTop="290dp"/>
 
     <LinearLayout
         android:layout_width="wrap_content"

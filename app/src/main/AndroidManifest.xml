@@ -16,9 +16,6 @@
             android:name=".Lifevideo"
             android:exported="true" />
         <activity
-            android:name=".Video"
-            android:exported="true" />
-        <activity
             android:name=".Seven"
             android:exported="true" />
         <activity

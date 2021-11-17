@@ -8,9 +8,6 @@ import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_one.*
 import android.content.Intent
 
-
-
-
 class one : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

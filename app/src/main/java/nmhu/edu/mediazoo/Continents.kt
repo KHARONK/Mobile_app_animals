@@ -9,20 +9,10 @@ import android.widget.VideoView
 import androidx.appcompat.widget.LinearLayoutCompat
 import kotlinx.android.synthetic.main.activity_one.*
 
-
 class Continents : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        val videoView =VideoView(this).apply{
-            setVideoPath("android.resource://$packageName/raw/undock")
-            start()
-        }
-        val mediaController = MediaController(this).apply {
-            setAnchorView(videoView)
-        }
-        videoView.setMediaController(mediaController)
-        setContentView(videoView)
+        setContentView(R.layout.activity_continents)
 
         val maindata = intent
 
@@ -69,11 +59,10 @@ class Continents : AppCompatActivity() {
             startActivity(southintent)
         }
 
-        //video link
         val lifebtn = findViewById<View>(R.id.life)
-       lifebtn.setOnClickListener{
-           val southintent = Intent(applicationContext, Seven::class.java)
-           startActivity(southintent)
+        lifebtn.setOnClickListener{
+           val lifeintent = Intent(applicationContext, Lifevideo::class.java)
+           startActivity(lifeintent)
         }
 
     }
