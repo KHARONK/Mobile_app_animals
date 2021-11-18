@@ -12,9 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MEDIAZOO"
         android:usesCleartextTraffic="true">
-        <activity
-            android:name=".Lifevideo"
-            android:exported="true" />
+
         <activity
             android:name=".Seven"
             android:exported="true" />

@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
        setContentView(R.layout.activity_main)
 
-
         //image source: https://www.themoviedb.org/t/p/original/p0EBWE757Rzmgo4XkNOjCeDPFGn.jpg
         val wlcmImg = findViewById<View>(R.id.wlcmImage) as ImageView
         wlcmImg.setOnClickListener {

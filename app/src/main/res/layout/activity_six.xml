@@ -31,7 +31,7 @@
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/pygmy"
+        android:id="@+id/Pygmy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
@@ -40,7 +40,7 @@
         android:text="pygmy" />
 
     <Button
-        android:id="@+id/ringtail"
+        android:id="@+id/Ringtail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="142dp"
@@ -49,13 +49,31 @@
         android:text="ringtail" />
 
     <Button
-        android:id="@+id/bear"
+        android:id="@+id/Bear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="129dp"
         android:textAlignment="center"
         android:layout_marginTop="120pt"
         android:text="polar bear" />
+
+    <Button
+        android:id="@+id/Continent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:textAlignment="center"
+        android:layout_marginTop="280pt"
+        android:text="Continets" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:textAlignment="center"
+        android:layout_marginTop="280pt"
+        android:text="Back" />
 
     <ImageView
         android:id="@+id/animal"

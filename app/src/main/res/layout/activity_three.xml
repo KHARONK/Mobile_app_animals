@@ -30,7 +30,7 @@
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/krill"
+        android:id="@+id/Krill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
@@ -39,7 +39,7 @@
         android:text="krill" />
 
     <Button
-        android:id="@+id/whale"
+        android:id="@+id/Whale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="149dp"
@@ -48,13 +48,31 @@
         android:text="whale" />
 
     <Button
-        android:id="@+id/penguin"
+        android:id="@+id/Penguin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="141dp"
         android:textAlignment="center"
         android:layout_marginTop="120pt"
         android:text="penguin" />
+
+    <Button
+        android:id="@+id/Continent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:textAlignment="center"
+        android:layout_marginTop="280pt"
+        android:text="Continets" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:textAlignment="center"
+        android:layout_marginTop="280pt"
+        android:text="Back" />
 
     <ImageView
         android:id="@+id/animal"

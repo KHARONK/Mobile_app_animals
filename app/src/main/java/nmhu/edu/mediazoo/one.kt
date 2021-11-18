@@ -20,16 +20,16 @@ class one : AppCompatActivity() {
         val flamingo = findViewById<View>(R.id.animal) as ImageView
         val snow = findViewById<View>(R.id.animal) as ImageView
         val text = findViewById<View>(R.id.textView2) as TextView
-        val descTectUrl = findViewById<View>(R.id.descUrl)
+        //val descTectUrl = findViewById<View>(R.id.imageurl) as TextView
 
        val Camelabtn = findViewById<View>(R.id.Camel)
-       // descTectUrl.setText("image Url: https://www.wallpapers13.com/rain-drops/");
        Camelabtn.setOnClickListener {
           camel.setImageResource(R.drawable.camel)
            text.visibility = View.GONE
            Camel.visibility = View.GONE
            Flamingo.visibility = View.GONE
            Snow.visibility = View.GONE
+          // descTectUrl.text = "image Url: https://www.wallpapers13.com/rain-drops/"
         }
 
         val Flamingobtn = findViewById<View>(R.id.Flamingo)
@@ -43,18 +43,24 @@ class one : AppCompatActivity() {
 
         val Snowbtn = findViewById<View>(R.id.Snow)
         Snowbtn.setOnClickListener {
+            snow.setImageResource(R.drawable.snowleopard)
             text.visibility = View.GONE
             Camel.visibility = View.GONE
             Flamingo.visibility = View.GONE
             Snow.visibility = View.GONE
-            flamingo.setImageResource(R.drawable.snowleopard)
         }
-
 
         val backbtn = findViewById<View>(R.id.Back)
         backbtn.setOnClickListener {
             val Mainone = Intent(applicationContext, one::class.java)
             startActivity(Mainone)
+
+        }
+
+        val continentbtn = findViewById<View>(R.id.Continent)
+        continentbtn.setOnClickListener {
+            val continent = Intent(applicationContext, Continents::class.java)
+            startActivity(continent)
 
         }
 
