@@ -4,38 +4,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context=".Video">
+    tools:context=".ContinentsVideo">
 
     <VideoView
         android:id="@+id/vidview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id = "@+id/playbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="600dp"
-        android:layout_weight="1"
-        android:text="Play"/>
-
-    <Button
-        android:id="@+id/stopbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="260dp"
-        android:layout_marginTop="600dp"
-        android:layout_weight="1"
-        android:text="Stop" />
+        android:layout_marginTop="10pt"
+        android:layout_marginBottom="198dp"
+        android:layout_width="409dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center"/>
 
     <SeekBar
         android:id="@+id/seekbr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="565dp"
-        android:layout_weight="1"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp"
+        android:layout_weight="5"
         />
+
+    <Button
+        android:id = "@+id/playbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_weight="1"
+        android:text="Play"/>
+
+
+    <Button
+        android:id = "@+id/stopbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="300dp"
+        android:layout_weight="1"
+        android:text="stop"/>
 
 </FrameLayout>
